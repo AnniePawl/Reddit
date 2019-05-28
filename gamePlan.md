@@ -1,0 +1,12 @@
+FEATURES
+- Create a post 
+- Show all posts 
+- Make comments 
+- Sign up 
+- Login 
+- Associate content w/ author
+- Search 
+- Create Subreddit 
+- Create post on subreddit 
+- Show all subreddits 
+- Vote post up or down
