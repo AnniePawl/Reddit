@@ -26,4 +26,5 @@ require('./controllers/posts.js')(app);
 // Server Start
 app.listen(port, () => console.log(`Cool so your app is actually listening on port ${port}!`))
 
-
+// Set db
+require('./data/reddit-db');
