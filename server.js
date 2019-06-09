@@ -10,6 +10,10 @@ app.set('view engine', 'handlebars');
 
 app.get('/', (req, res) => res.render('index', {}))
 
+
+// Import Routes 
+require('./controllers/posts.js')(app);
+
 // Server Start
 app.listen(port, () => console.log(`Cool so your app is actually listening on port ${port}!`))
 
