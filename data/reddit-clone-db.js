@@ -14,6 +14,7 @@ mongoose.connect(
     // db.close(); turn on for testing
   }
 );
+// Error Handling for Connection Error
 mongoose.connection.on("error", console.error.bind(console, "MongoDB connection Error:"));
 mongoose.set("debug", true);
 

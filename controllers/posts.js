@@ -1,6 +1,3 @@
-// POSTS CONTROLLER
-
-// Require Post Model
 const Post = require('../models/post');
 
 module.exports = (app) => {
@@ -18,3 +15,15 @@ module.exports = (app) => {
   });
 
 };
+
+// SHOW POSTS
+// app.get("/posts/:id", function (req, res) {
+//   // LOOK UP THE POST
+//   Post.findById(req.params.id)
+//     .then(post => {
+//       res.render("posts-show", { post });
+//     })
+//     .catch(err => {
+//       console.log(err.message);
+//     });
+// });
