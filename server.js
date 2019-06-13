@@ -26,11 +26,12 @@ app.get('/', (req, res) => res.render('index', {}))
 require('./controllers/posts.js')(app);
 require('./models/post')(app);
 
-// Set Database
-require('./data/reddit-clone-db');
 
 // Server Start
 app.listen(port, () => console.log(`Cool so your app is actually listening on port ${port}!`))
+
+// Set Database
+require('./data/reddit-clone-db');
 
 // TODO: What does this line do ?
 module.exports = app;
